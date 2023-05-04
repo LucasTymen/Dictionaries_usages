@@ -16,15 +16,15 @@ the key does not exist in the dictionary:
 """
 
 raffle.pop(320291, "No Prize")
-"Gift Basket"
+# "Gift Basket"
 raffle
 {223842: "Teddy Bear", 872921: "Concert Tickets", 412123: "Necklace", 298787: "Pasta Maker"}
 raffle.pop(100000, "No Prize")
-"No Prize"
+# "No Prize"
 raffle
 {223842: "Teddy Bear", 872921: "Concert Tickets", 412123: "Necklace", 298787: "Pasta Maker"}
 raffle.pop(872921, "No Prize")
-"Concert Tickets"
+# "Concert Tickets"
 raffle
 {223842: "Teddy Bear", 412123: "Necklace", 298787: "Pasta Maker"}
 
